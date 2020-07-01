@@ -6,7 +6,7 @@
 
 This is a paragraph
 
-_Here is a sectence that is super `fancy.`_
+_Here is a sentence that is super `fancy.`_
 
 **Testing to see what this does. It made it bold, cool**
 
