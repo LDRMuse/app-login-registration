@@ -1,5 +1,46 @@
+:root {
+  --primary-color: #FF8066;
+  --secondary-color: #dda8b4;
+}
+
 body {
-  background-color: lightpink;
-  text-align: center;
+  background-color: var(--secondary-color);
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(129, 128, 128);
+  border-radius: 10px;
+  font-size: 3.052em; /*https://type-scale.com/*/
+  margin: 0.5rem;
+  padding: 5px;
+}
+
+form { 
+  align-items: center;
+  display: flex-column;
+}
+
+button {
+  border-radius: 10px;
+  min-width: 6rem;
+  padding: 0.5rem;
+}
+
+input {
+  border-radius: none;
+  color: rgb(129, 128, 128);
+  margin: 0.5rem;
+}
+
+div:last-of-type {
+  margin-bottom: 1rem;;
+}
+
+.screen-reader-text {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
 }
