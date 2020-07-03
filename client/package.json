@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --server --files '*.html, *.css, *.js'",
-    /*"test": "jest"*/
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +20,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "htmlhint": "^0.11.0",
-    /*"jest": "^26.1.0",
-    "serve": "^11.3.2",*/
+    "jest": "^26.1.0",
+    "serve": "^11.3.2",
     "standard": "^14.3.3",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
