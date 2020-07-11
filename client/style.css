@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #FF8066;
-  --secondary-color: #dda8b4;
+  --primary-color: #615553;
+  --secondary-color: #df8b9e;
 }
 
 body {
@@ -11,14 +11,13 @@ body {
 }
 
 h1 {
-  background-color: rgb(129, 128, 128);
   border-radius: 10px;
   font-size: 3.052em; /*https://type-scale.com/*/
   margin: 0.5rem;
   padding: 5px;
 }
 
-form { 
+form {
   align-items: center;
   display: flex-column;
 }

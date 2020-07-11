@@ -1,12 +1,23 @@
-console.log(document.querySelector('.screen-reader-text'))
-console.log(document.querySelectorAll('input'))
+// console.log(document.querySelector('.screen-reader-text'))
+// console.log(document.querySelectorAll('input'))
+
+const users = []
 
 document.querySelector('form').addEventListener('submit', function (event) {
   event.preventDefault() // we do not want default browser behavior
 
-  console.log('YOOO')
-})
+  // add new users to array
+  const add2Users = {
 
-const x = 3
-// gives back undefined primitive data type
-console.log(x.happy)
+    firstName: document.getElementById('firstName').value,
+    lastName: document.getElementById('lastName').value,
+    email: document.getElementById('email').value,
+    phone: document.getElementById('phone').value,
+    userName: document.getElementById('userName').value,
+    password: document.getElementById('password').value
+  }
+
+  users.push(add2Users)
+
+  console.log(add2Users)
+})
