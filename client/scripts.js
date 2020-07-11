@@ -15,9 +15,17 @@ document.querySelector('form').addEventListener('submit', function (event) {
     phone: document.getElementById('phone').value,
     userName: document.getElementById('userName').value,
     password: document.getElementById('password').value
+
   }
 
-  users.push(add2Users)
+  // check to see if user already exists
+  const alreadyAUser = users.find(function (user) {
+    return user.userName === add2Users.userName
+  })
 
-  console.log(add2Users)
+  // Add if userName does not exist
+  if (!alreadyAUser) {
+    users.push(add2Users)
+    console.log(users)
+  }
 })
