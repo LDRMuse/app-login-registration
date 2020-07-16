@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files '*.html, *.css, *.js'",
+    "start": "parcel index.html",
     "test": "jest"
   },
   "keywords": [],
@@ -21,10 +21,14 @@
     "eslint-plugin-standard": "^4.0.1",
     "htmlhint": "^0.11.0",
     "jest": "^26.1.0",
+    "parcel-bundler": "^1.12.4",
     "serve": "^11.3.2",
     "standard": "^14.3.3",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0"
+  },
+  "dependencies": {
+
   }
 }
