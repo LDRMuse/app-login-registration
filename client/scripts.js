@@ -1,5 +1,3 @@
-// console.log(document.querySelector('.screen-reader-text'))
-// console.log(document.querySelectorAll('input'))
 
 const users = []
 
